@@ -1,0 +1,13 @@
+# Prevent Direct Access to files
+<FilesMatch "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+ Order deny,allow
+ Deny from all
+</FilesMatch>
+
+# SEO URL Settings
+RewriteEngine On
+RewriteBase /ocbased/
+
+# Redirect non-www to www - DISABLE THIS ON LOCALHOST
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/ocbased/$1 [R=301,L]
