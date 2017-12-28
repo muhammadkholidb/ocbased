@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `ocb_setting` (
   `key` varchar(64) NOT NULL,
   `value` text NOT NULL,
   `serialized` tinyint(1) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=314 DEFAULT CHARSET=utf8;
+) AUTO_INCREMENT=314 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ocb_setting`
@@ -211,7 +211,7 @@ CREATE TABLE IF NOT EXISTS `ocb_user` (
   `ip` varchar(40) NOT NULL,
   `status` tinyint(1) NOT NULL,
   `date_added` datetime NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ocb_user`
@@ -230,7 +230,7 @@ CREATE TABLE IF NOT EXISTS `ocb_user_group` (
 `user_group_id` int(11) NOT NULL,
   `name` varchar(64) NOT NULL,
   `permission` text NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `ocb_user_group`
