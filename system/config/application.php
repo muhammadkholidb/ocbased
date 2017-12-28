@@ -32,3 +32,12 @@ $_['action_default']     = 'common/dashboard';
 $_['action_event'] = array(
     'view/*/before' => 'event/theme',
 );
+
+// Default position
+$_['default_position_name'] = 'Administrator';
+
+// Limit
+$_['default_limit'] = 10;
+
+// Session
+$_['default_session_key'] = 'ocbased';

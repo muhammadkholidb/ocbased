@@ -26,6 +26,8 @@ $_['text_loading']                  = 'Loading...';
 $_['text_no_results']               = 'No results!';
 $_['text_confirm']                  = 'Are you sure?';
 $_['text_home']                     = 'Home';
+$_['text_active']                   = 'Active';
+$_['text_inactive']                 = 'Inactive';
 
 // Button
 $_['button_add']                    = 'Add New';

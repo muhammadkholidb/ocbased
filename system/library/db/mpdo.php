@@ -82,7 +82,8 @@ final class mPDO {
 	}
 
 	public function escape($value) {
-		return str_replace(array("\\", "\0", "\n", "\r", "\x1a", "'", '"'), array("\\\\", "\\0", "\\n", "\\r", "\Z", "\'", '\"'), $value);
+                // http://stackoverflow.com/questions/42146519/cannot-replace-carriage-return-and-new-line-in-php
+		return str_replace(array('\\', '\0', '\n', '\r', '\x1a', "'", '"'), array('\\\\', '\\0', '\\n', '\\r', '\Z', "\'", '\"'), $value);
 	}
 
 	public function countAffected() {

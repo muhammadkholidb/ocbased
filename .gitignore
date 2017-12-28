@@ -1,5 +1,9 @@
+.buildpath
 .directory
+.project
 **/nbproject/
+**/.settings/
 /image/cache/
+/image/upload/*
 /system/storage/cache/
 /system/storage/logs/
